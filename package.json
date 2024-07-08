@@ -1,5 +1,9 @@
 "homepage": "https://nexconnect55.github.io/fortnite-reward-system",
-
+"scripts": {
+  // 他の既存のスクリプト
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+}
 {
   "name": "fortnite-reward-system",
   "version": "0.1.0",
